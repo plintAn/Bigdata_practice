@@ -8,7 +8,7 @@
 * 주의할 점은 nunique(), describe(include='object')를 사용해 고유 값의 수를 확인하여 원-핫 인코딩을 진행하고
 * 고유 값이 너무 많을 경우 적절한 drop 처리나 그래도 많을 경우 LabelEncoder를 진행해야 한다.
 
-
+ 
 ```python
 train = pd.read_csv("",encoding = 'euc-kr')
 # EDA 진행
